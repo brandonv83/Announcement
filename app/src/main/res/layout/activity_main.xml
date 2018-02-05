@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+      <ImageView
+        android:contentDescription="@string/background_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/AnnounceText"
+        style="@style/TopText"
+        android:text="@string/announce"
+        android:paddingTop="@dimen/Padding_Top"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:id="@+id/Baby3Text"
+        style="@style/TopText"
+        android:text="@string/baby3"
+        android:layout_below="@id/AnnounceText"
+        />
+
+    <TextView
+        android:id="@+id/Arriving"
+        style="@style/BottomText"
+        android:layout_above="@id/Date"
+        android:text="@string/arriving"
+        />
+
+    <TextView
+        android:id="@+id/Date"
+        style="@style/BottomText"
+        android:text="@string/date"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="@dimen/Padding_Bottom"
+        />
+
+</RelativeLayout>

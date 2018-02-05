@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Text">40sp</dimen>
+    <dimen name="Padding_Top">16dp</dimen>
+    <dimen name="Padding_Bottom">16dp</dimen>
+    <dimen name="Padding_Left">16dp</dimen>
+    <dimen name="Padding_Right">16dp</dimen>
+
+
+
+</resources>
